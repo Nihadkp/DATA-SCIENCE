@@ -1,5 +1,5 @@
 import numpy as np
-matrix = np.array([[2,4,6],[7,3,1],[4,8,2]])
+matrix = np.array([[6,3,9],[4,7,5],[6,3,9]])
 column,row = matrix.shape
 print("sum of diagonals:",sum(np.diag(matrix)))
 # sum=0
